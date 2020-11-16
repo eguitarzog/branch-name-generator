@@ -1,7 +1,9 @@
 # branch-name-generator
 A shell script generates the branch name which complies opengov's policy
 
-Install
+![Demo](http://g.recordit.co/Mileu1Iz2o.gif)
+
+## Install
 1. Clone this repo
 2. In the cloned folder, add execution permission for users. 
 ```
