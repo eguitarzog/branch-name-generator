@@ -7,7 +7,7 @@ Install
 ```
 chmod u+x bng.sh
 ```
-3. Add the sh file to PATH. 
+3. Add the sh file to PATH. (.zshrc or .bash_profile)
 ```
 export PATH=${YOUR_CLONED_FOLDER}/branch-name-generator:$PATH
 ```
