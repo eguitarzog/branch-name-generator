@@ -5,7 +5,7 @@ Install
 1. Clone this repo
 2. In the cloned folder, add execution permission for users. 
 ```
-chmod u+x bng.sh)
+chmod u+x bng.sh
 ```
 3. Add the sh file to PATH. 
 ```
