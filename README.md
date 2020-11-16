@@ -7,16 +7,17 @@ Install
 ```
 chmod u+x bng.sh
 ```
-3. Add the sh file to PATH. (.zshrc or .bash_profile)
+3. Add the shell file to PATH (Edit in .zshrc or .bash_profile if you're not using zsh)
 ```
 export PATH=${YOUR_CLONED_FOLDER}/branch-name-generator:$PATH
+
 ```
-4. Source it
+4. Alias it so it's easier to run the shell script. (Same file as step 4. I use `gb` here which stands for git branch)
+```
+alias gb='bng.sh'
+```
+5. Source it
 ```
 source ~/.zshrc
 #(or .bash_profile if you're not using zsh)
-```
-5. Alias it so it's easier to run the shell script. (I use `gb` here, as it stands for git branch)
-```
-alias gb=bng.sh
 ```
